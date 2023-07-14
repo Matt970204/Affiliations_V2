@@ -39,4 +39,4 @@ Within fuzzy matching there are the 5 journals each contains its own notebook fo
 This project is intended for academic work and is free to use for anyone.
 
 ## Contact 
-Created by Mathew Johnson as part of my MPhil in FinTech at the University of Cape Town.
+Created by @Matt970204 as part of my MPhil in FinTech at the University of Cape Town.

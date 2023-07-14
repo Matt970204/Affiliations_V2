@@ -37,13 +37,22 @@ Within fuzzy matching there are the 5 journals each contains its own notebook fo
 
 ## Simplified start to finish of project
 
+### General data placement on page
+
+In the 5 journals there are 3 general placements of the University name and author name. AER and QJE have this at the bottom of their last page. JPE and RES are on the first page. ECTA is either before references, appendix or in the footnotes. This is a general placement and it does change in each journal throughout the years, which adds to the complexity of the manual cleaning. There are also changes in line spacing and punctuation picked up by the PDF reader, with these combined it is near impossible to manually do this accurately.
+
+The 3 images show this what this looks like in a PDF.
+
 ![Bottom](./Miscellaneous/Bottom%20of%20last%20page.png)
 
 ![Top](./Miscellaneous/Top%20of%20first%20page%20under%20heading.png)
 
 ![Appendix](./Miscellaneous/Footnotes%20refernces%20appendix.png)
 
-### Example of what the PDF data looks like for each journal
+### Raw tesseract data
+The data outputted is in this format with the affiliations line contaning the round about placement of the affiliation. It is generally within this text, although the output does contain additional text either above or below the string with the contained affilliation.
+
+![AER tesseract](./Miscellaneous/AER%201.png)
 
 ### Cummulative plot of papers published over time for top 10 publishers in all journals
 
@@ -51,7 +60,7 @@ Within fuzzy matching there are the 5 journals each contains its own notebook fo
 
 ## Intended use
 This project is intended for academic work and is free to use for anyone.
-
+6543
 ## Contact 
 Created by @Matt970204 as part of my MPhil in FinTech at the University of Cape Town.
 

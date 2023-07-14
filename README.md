@@ -35,8 +35,24 @@ The first failed iteration of the project. This was an attempt at maually coding
 ### 2_2 Fuzzy matching
 Within fuzzy matching there are the 5 journals each contains its own notebook for splitting as well as another folder which contains the combined splitting from multiple journals and output. UNiversity list contains the unique Universities that have been used in the fuzzy matcher which produce an output.
 
+## Simplified start to finish of project
+
+![Bottom](/Users/MattJohnson/Desktop/Affiliations/Miscellaneous/Bottom of last page.png)
+
+![Top](/Users/MattJohnson/Desktop/Affiliations/Miscellaneous/Top of first page under heading.png)
+
+![Appendix](/Users/MattJohnson/Desktop/Affiliations/Miscellaneous/Footnotes refernces appendix.png)
+
+### Example of what the PDF data looks like for each journal
+
+### Cummulative plot of papers published over time for top 10 publishers in all journals
+
+### Ranking of Universities based on number of publications per decade
+
 ## Intended use
 This project is intended for academic work and is free to use for anyone.
 
 ## Contact 
 Created by @Matt970204 as part of my MPhil in FinTech at the University of Cape Town.
+
+## Addito

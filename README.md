@@ -1,4 +1,5 @@
 # Top 5 economic journal paper affiliation extraction
+This repository details how University names are extracted from messy data for my masters dissertation which is to construct a long-term ranking of research intensity of universities globally based on publications in the Top 5 economics journals (AER, JPE, ECTA, QJE, REStud) from 1940 to 2020.
 
 ## Table of contents
 * [General information](#General-information)
@@ -8,10 +9,9 @@
 * [Contact](#Contact)
 
 ## General information
-This repository detials how University names are extracted from messy data for my masters dissertation which is to construct a long-term ranking of research intensity of universities globally based on publications in the Top 5 economics journals (AER, JPE, ECTA, QJE, REStud) from 1940 to 2020.
-The repository takes in outputted raw NLP data from papers published and cleans this data, as well as visualising the data. 
+The project provides details on how the extraction of messy data took place, the different project iterations as well as some of the analysis of the data. This project is intended for research purposes, anyone is free to use the IP and the output data.
 
-## Setup 
+## Setup
 All source files have been included under 'Tesseract output json files'.
 The project is witten using MACOS and files refecinging will need to be adapted for Windows use. 
 
@@ -55,8 +55,17 @@ The data outputted is in this format with the affiliations line contaning the ro
 ![AER tesseract](./Miscellaneous/AER%201.png)
 
 ### Cummulative plot of papers published over time for top 10 publishers in all journals
+Output of '2_Extracting affilitations/2_Fuzzy matching/Combined journals/JPE_RES_QJE_AER_combined rapidfuzz.ipynb'
+
+![PapersPublished](./Miscellaneous/Papers%20published.png)
 
 ### Ranking of Universities based on number of publications per decade
+
+
+Output of '2_Extracting affilitations/2_Fuzzy matching/Combined journals/JPE_RES_QJE_AER_combined rapidfuzz.ipynb'
+But this is taken a step further and plotted in Excel using pivot tables in Output of '/Users/MattJohnson/Desktop/Affiliations/2_Extracting affilitations/2_Fuzzy matching/Combined journals/Ranking.xlsx'
+
+![Ranking](./Miscellaneous/Ranking1407.png)
 
 ## Intended use
 This project is intended for academic work and is free to use for anyone.

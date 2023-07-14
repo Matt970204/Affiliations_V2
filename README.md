@@ -37,11 +37,11 @@ Within fuzzy matching there are the 5 journals each contains its own notebook fo
 
 ## Simplified start to finish of project
 
-![Bottom](./Miscellaneous/Bottom of last page.png)
+![Bottom](./Miscellaneous/Bottom%20of%20last%20page.png)
 
-![Top](.Miscellaneous/Top of first page under heading.png)
+![Top](./Miscellaneous/Top%20of%20first%20page%20under%20heading.png)
 
-![Appendix](./Miscellaneous/Footnotes refernces appendix.png)
+![Appendix](./Miscellaneous/Footnotes%20refernces%20appendix.png)
 
 ### Example of what the PDF data looks like for each journal
 

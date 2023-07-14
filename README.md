@@ -33,7 +33,7 @@ Split into 2 sections of manual extraction and fuzzy matching. These are the 2 t
 The first failed iteration of the project. This was an attempt at maually coding in rules to split the data. In the end this couldn't work due to the variability in the data. Especially when switching between journals.
 
 ### 2_2 Fuzzy matching
-Within fuzzy matching there are the 5 journals each contains its own notebook for splitting as well as another folder which contains the combined splitting from multiple journals and output. UNiversity list contains the unique Universities that have been used in the fuzzy matcher which produce an output.
+Within fuzzy matching there are the 5 journals each contains its own notebook for splitting as well as another folder which contains the combined splitting from multiple journals and output. University list contains the unique Universities that have been used in the fuzzy matcher which produce an output.
 
 ## Simplified start to finish of project
 
@@ -54,12 +54,16 @@ The data outputted is in this format with the affiliations line contaning the ro
 
 ![AER tesseract](./Miscellaneous/AER%201.png)
 
-### Cummulative plot of papers published over time for top 10 publishers in all journals
+### Data processing
+Next comes the extraction step detailed above in [2 Extacting affiliations](##2-Extracting-affilitions)
+
+### Results
+#### Cummulative plot of papers published over time for top 10 publishers in all journals
 Output of '2_Extracting affilitations/2_Fuzzy matching/Combined journals/JPE_RES_QJE_AER_combined rapidfuzz.ipynb'
 
 ![PapersPublished](./Miscellaneous/Papers%20published.png)
 
-### Ranking of Universities based on number of publications per decade
+#### Ranking of Universities based on number of publications per decade
 
 
 Output of '2_Extracting affilitations/2_Fuzzy matching/Combined journals/JPE_RES_QJE_AER_combined rapidfuzz.ipynb'

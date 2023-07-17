@@ -14,6 +14,7 @@ The project provides details on how the extraction of messy data took place, the
 ## Setup
 All source files have been included under 'Tesseract output json files'.
 The project is witten using MACOS and files refecinging will need to be adapted for Windows use. 
+pip install json, pandas, rapidfuzz and requests
 
 ## File strucuture and code locations
 This repository has multiple individual pieces that contribute to a full picture in the end. This section details where all the pieces sit and what they are.

@@ -11,11 +11,6 @@ This repository details how University names are extracted from messy data for m
 ## General information
 The project provides details on how the extraction of messy data took place, the different project iterations as well as some of the analysis of the data. This project is intended for research purposes, anyone is free to use the IP and the output data.
 
-## Setup
-All source files have been included under 'Tesseract output json files'.
-The project is witten using MACOS and files refecinging will need to be adapted for Windows use. 
-pip install json, pandas, rapidfuzz and requests
-
 ## File strucuture and code locations
 This repository has multiple individual pieces that contribute to a full picture in the end. This section details where all the pieces sit and what they are.
 
@@ -35,6 +30,23 @@ The first failed iteration of the project. This was an attempt at maually coding
 
 ### 2_2 Fuzzy matching
 Within fuzzy matching there are the 5 journals each contains its own notebook for splitting as well as another folder which contains the combined splitting from multiple journals and output. University list contains the unique Universities that have been used in the fuzzy matcher which produce an output.
+
+## Setup
+The recommended software to run this program is Visual studio code. This project has been written to run on Mac and Windows and the file paths are linked to the Githib reposity, it will run once the requires libraries have been installed.
+
+Libraries required:
+
+use 'pip install' to install the libraries
+json, pandas, rapidfuzz, matplotlib and requests
+
+## Running the code 
+The end code that is used is housed in 2__2 Fuzzy matching. In this folder there are subfolders for AER, JPE, QJE and RES run the files that end with 'no_test_output' to get to a final result. If you would like to output the testing files use the base Rapidfuzz files and edit the path to output to your own PC.
+
+Below is the JPE code that should be run for that specific journal.
+
+![JPE_no_output](./Miscellaneous/JPE_no_output.png)
+
+Once the 4 journals have been run, 'JPE_RES_QJE_AER_combined rapidfuzz no test output.ipynb' in 'Combined Journals' this will take the previous 4 outputs and combine them into 1 output.
 
 ## Simplified start to finish of project
 

@@ -14,21 +14,24 @@ The project provides details on how the extraction of messy data took place, the
 ## File strucuture and code locations
 This repository has multiple individual pieces that contribute to a full picture in the end. This section details where all the pieces sit and what they are.
 
-### 1 Input files and processing input files
+### 1. Input Data
 
-#### 1_1 Input files
+#### 1.1. Tesseract affiliation output
 Contains the input data used in the extraction, this is raw data from tesseract (Tesseract affiliation  data), affiliation data obtained from scopus (Scopus files),   (master lists)
 
-#### 1_2 Processing input files
+#### 1.2. Processed
 Contains files used to clean master listsa and merge input data together as well as checking how many affiliations exist within scopus.
 
-## 2 Extracting affilitions
-Split into 2 sections of manual extraction and fuzzy matching. These are the 2 thoughts on how to extract affilitons from the different journals. 
+## 1.3. Scopus files
+Contains sheets of raw scopus data for the different journals. There are some issues with this data being they do not use consitent naming for affiliations, sometimes an affiliation has multiple authors but only 1 has an affiliation written for them and the referencing of the affiliation to the author name is incosintent and sometimes inaccurate. 
 
-### 2_1 Manual splitting
-The first failed iteration of the project. This was an attempt at maually coding in rules to split the data. In the end this couldn't work due to the variability in the data. Especially when switching between journals.
+## 2. Extracting affiliations from Tesseract
+Split into 2 sections being consolidation  and fuzzy matching. There is a lot of variability within the data from different journals as well as within individual journals the data is variable. 
 
-### 2_2 Fuzzy matching
+### Consolidation
+JPE, RES and QJE follow the process of consolidation. The data from these jounals is structured and follows a generally consistent pattern with a few exceptions. Therefore code could be written to automate the splitting of affiliations for each author from the teseract output. 
+
+### 2.2. Fuzzy Matching
 Within fuzzy matching there are the 5 journals each contains its own notebook for splitting as well as another folder which contains the combined splitting from multiple journals and output. University list contains the unique Universities that have been used in the fuzzy matcher which produce an output.
 
 ## Setup

@@ -40,7 +40,7 @@ Split into 2 sections being consolidation  and fuzzy matching. There is a lot of
 JPE, RES and QJE follow the process of consolidation. The data from these jounals is structured and follows a generally consistent pattern with a few exceptions. Therefore code could be written to automate the splitting of affiliations for each author from the teseract output. 
 
 #### 2.2. Fuzzy Matching
-The tesseract information for AER was extracted through the use of Fuzzy matching. This is due to the nature of the data compared to the otehr journals.
+The tesseract information for AER was extracted through the use of Fuzzy matching. This is due to the nature of the data compared to the other journals.
 
 ### 3. Remaining affiliation data
 There is some missing data from tesseract where the files varied too much and the data could not be extracted. For these missing entries some have been filled in manually, some have used Scopus data and others have been completed by Amazon Mechanical Turk. 
